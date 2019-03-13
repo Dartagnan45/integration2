@@ -1,0 +1,219 @@
+@font-face {
+	font-family: "partybusiness";
+	src: url("nancy-lorenz_party-business/partybusiness.ttf");
+ }
+@font-face {
+	font-family: "ani";
+	src: url("pete-klassen_aniron/anicb___.ttf");
+	src: url("pete-klassen_aniron/anicm___.ttf");
+	src: url("pete-klassen_aniron/anirb___.ttf");
+	src: url("pete-klassen_aniron/anirm___.ttf");
+}
+@font-face{
+	font-family: "teng";
+	src: url("tengwar_annatar/tngan.ttf");
+	src: url("tengwar_annatar/tnganb.ttf");
+	src: url("tengwar_annatar/tnganbi.ttf");
+	src: url("tengwar_annatar/tngani.ttf");
+}
+
+body{
+	background: url(/home/aragorn/Documents/FindThePrecious/integration_maquette_finale/images/bg_light.png);
+}
+
+/*header*/
+
+
+/*nav*/
+
+.navbar{
+	background-color: #FF4404;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: white;
+	font-family: 'ani';
+	font-size: 1.2em;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.nav .nav-pills .nav-fill{
+	color: white;
+}
+
+
+/*carsousel*/
+
+.carousel-caption{
+	top: 30%;
+}
+
+h1{
+	font-family: 'partybusiness';
+	font-size: 7em;
+}
+
+.text-carousel{
+	font-size: 4em;
+	font-family: 'partybusiness';
+}
+
+.initiales{
+	font-size: 4em;
+	font-family: 'partybusiness';
+}
+
+p{
+	font-family: 'ani';
+}
+
+
+/*pills*/
+
+.pills{
+	font-family: 'ani';
+}
+
+h2{
+	font-family: 'ani';
+	font-size: 1.5em;
+}
+
+.pills{
+	font-family: "ani";
+	font-size: 1.5em;
+	color: gray;
+}
+
+.pills:hover{
+	color: #FF4404;
+	text-decoration: underline; color:#FF4404;
+}
+
+.teng{
+	font-family: 'teng';
+	color: #FF4404;
+
+}
+
+.w{
+	font-family: "partybusiness";
+	font-size: 1em;
+	opacity: 0;
+}
+
+.pills:hover .w{
+	opacity: 1;
+}
+
+
+/*thumbnails*/
+
+.card{
+	background: url(/home/aragorn/Documents/FindThePrecious/integration_maquette_finale/images/bg_dark.png);
+}
+
+.card-img-top{
+	opacity: 0.7;
+}
+
+.card-img-top:hover{
+	opacity: 1;
+}
+
+.card-text{
+	color: white;
+	font-family: 'partybusiness';
+	font-size: 2.5em;
+}
+
+.coins{
+	font-family: 'partybusiness';
+	color: #FF4404
+}
+
+.reward{
+	position: absolute;
+	text-align: center;
+	font-family: 'partybusiness';
+	font-size: 2.5em;
+	background-color: white; opacity: 0.8;
+	border-radius: 2%;
+	width: 80%;
+	top: 5%;
+	left: 10%;
+	box-shadow: 4px 4px 12px 12px white;
+}
+
+.dead{
+	position: absolute;
+	text-align: center;
+	font-family: 'partybusiness' ;
+	font-size: 3em;
+	color: #FF4404;
+	top: 10%;
+	left: 40%;
+}
+
+.card:hover .reward{
+	opacity: 0;
+}
+
+.card:hover .dead{
+	visibility: hidden;
+}
+
+.card{
+   border: 5px solid black;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'partybusiness';
+    font-size: 4em;
+}
+
+.card-title1{
+	position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'partybusiness';
+    font-size: 3em;
+	text-decoration: line-through #FF4404 ;
+	font-size: 4em;
+}
+
+/*best hunters*/
+
+
+/*ring*/
+
+.roundedImage{
+    border-radius: 50%;
+}
+
+
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
