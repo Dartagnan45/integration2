@@ -114,7 +114,7 @@ h2{
 /*thumbnails*/
 
 .card{
-	background: url(/home/aragorn/Documents/FindThePrecious/integration_maquette_finale/images/bg_dark.png);
+	background: url(images/bg_dark.png);
 }
 
 .card-img-top{
@@ -197,10 +197,6 @@ h2{
 
 
 /*ring*/
-
-.roundedImage{
-    border-radius: 50%;
-}
 
 
 
